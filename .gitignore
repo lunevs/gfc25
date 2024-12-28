@@ -1,1 +1,5 @@
 /.idea/
+/backend/.gitattributes
+/backend/mvnw
+/backend/mvnw.cmd
+/backend/.mvn/
