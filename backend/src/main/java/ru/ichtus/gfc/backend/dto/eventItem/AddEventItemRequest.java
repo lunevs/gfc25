@@ -1,4 +1,4 @@
-package ru.ichtus.gfc.backend.dto.events;
+package ru.ichtus.gfc.backend.dto.eventItem;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

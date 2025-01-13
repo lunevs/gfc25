@@ -12,6 +12,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.ToString;
 
 import java.time.Instant;
@@ -24,6 +25,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
+@Setter
 public class ConfEvent {
 
     @Id
@@ -40,6 +42,6 @@ public class ConfEvent {
     @OneToMany(mappedBy = "event", cascade = CascadeType.ALL)
     @Builder.Default
     @ToString.Exclude
-    private List<ConfEventItem> eventItems = new ArrayList<>();
+    private List<EventItem> eventItems = new ArrayList<>();
 
 }

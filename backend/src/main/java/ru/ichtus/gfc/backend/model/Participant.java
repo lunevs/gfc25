@@ -38,5 +38,5 @@ public class Participant {
     @OneToMany(mappedBy = "participant", cascade = CascadeType.ALL)
     @Builder.Default
     @ToString.Exclude
-    private List<ConfEventItem> eventItems = new ArrayList<>();
+    private List<EventItem> eventItems = new ArrayList<>();
 }
